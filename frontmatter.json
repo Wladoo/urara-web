@@ -1,0 +1,101 @@
+{
+  "$schema": "https://beta.frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "pageBundle": false,
+      "previewPath": null,
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "Publishing date",
+          "name": "date",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true
+        },
+        {
+          "title": "Content preview",
+          "name": "preview",
+          "type": "image"
+        },
+        {
+          "title": "Is in draft",
+          "name": "draft",
+          "type": "draft"
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "Categories",
+          "name": "categories",
+          "type": "categories"
+        }
+      ]
+    }
+  ],
+  "frontMatter.framework.id": "other",
+  "frontMatter.content.publicFolder": "",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "urara-web",
+      "path": "[[workspace]]",
+      "originalPath": "[[workspace]]"
+    },
+    {
+      "title": "hello-world",
+      "path": "[[workspace]]/src/routes/hello-world",
+      "originalPath": "[[workspace]]/src/routes/hello-world"
+    },
+    {
+      "title": "elements",
+      "path": "[[workspace]]/src/routes/hello-world/elements",
+      "originalPath": "[[workspace]]/src/routes/hello-world/elements"
+    },
+    {
+      "title": "toc-disabled",
+      "path": "[[workspace]]/src/routes/hello-world/toc-disabled",
+      "originalPath": "[[workspace]]/src/routes/hello-world/toc-disabled"
+    },
+    {
+      "title": "urara",
+      "path": "[[workspace]]/urara",
+      "originalPath": "[[workspace]]/urara"
+    },
+    {
+      "title": "hello-world",
+      "path": "[[workspace]]/urara/hello-world",
+      "originalPath": "[[workspace]]/urara/hello-world"
+    },
+    {
+      "title": "elements",
+      "path": "[[workspace]]/urara/hello-world/elements",
+      "originalPath": "[[workspace]]/urara/hello-world/elements"
+    },
+    {
+      "title": "toc-disabled",
+      "path": "[[workspace]]/urara/hello-world/toc-disabled",
+      "originalPath": "[[workspace]]/urara/hello-world/toc-disabled"
+    },
+    {
+      "title": "assets",
+      "path": "[[workspace]]/urara/assets"
+    }
+  ],
+  "frontMatter.taxonomy.tags": [
+    "Front-Matter"
+  ],
+  "frontMatter.taxonomy.categories": []
+}
