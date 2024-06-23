@@ -33,7 +33,7 @@
     "@sveltejs/kit": "^1.15.2",
     "@tailwindcss/typography": "^0.5.9",
     "@types/node": "^18.14.0",
-    "@types/unist": "^2.0.6",
+    "@types/unist": "^3.0.2",
     "@typescript-eslint/eslint-plugin": "^5.52.0",
     "@typescript-eslint/parser": "^5.52.0",
     "@vite-pwa/sveltekit": "^0.1.3",
