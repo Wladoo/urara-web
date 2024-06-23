@@ -18,8 +18,8 @@ devDependencies:
     specifier: ^2.0.5
     version: 2.0.5(@sveltejs/kit@1.15.2)
   '@sveltejs/adapter-static':
-    specifier: ^2.0.1
-    version: 2.0.1(@sveltejs/kit@1.15.2)
+    specifier: ^2.0.3
+    version: 2.0.3(@sveltejs/kit@1.15.2)
   '@sveltejs/adapter-vercel':
     specifier: ^2.0.4
     version: 2.0.4(@sveltejs/kit@1.15.2)
@@ -2118,8 +2118,8 @@ packages:
       set-cookie-parser: 2.5.1
     dev: true
 
-  /@sveltejs/adapter-static@2.0.1(@sveltejs/kit@1.15.2):
-    resolution: {integrity: sha512-o5/q3YwD/ErxYCFlK1v3ydvldyNKk1lh3oeyxn4mhz+Pkbx/uuxhzmbOpytTlp5aVqNHDVsb04xadUzOFCDDzw==}
+  /@sveltejs/adapter-static@2.0.3(@sveltejs/kit@1.15.2):
+    resolution: {integrity: sha512-VUqTfXsxYGugCpMqQv1U0LIdbR3S5nBkMMDmpjGVJyM6Q2jHVMFtdWJCkeHMySc6mZxJ+0eZK3T7IgmUCDrcUQ==}
     peerDependencies:
       '@sveltejs/kit': ^1.5.0
     dependencies:
