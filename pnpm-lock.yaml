@@ -84,8 +84,8 @@ devDependencies:
     specifier: ^3.1.1
     version: 3.1.1
   mdsvex:
-    specifier: ^0.10.6
-    version: 0.10.6(svelte@3.55.1)
+    specifier: ^0.11.1
+    version: 0.11.1(svelte@3.55.1)
   npm-run-all:
     specifier: ^4.1.5
     version: 4.1.5
@@ -2439,13 +2439,13 @@ packages:
   /@types/hast@2.3.4:
     resolution: {integrity: sha512-wLEm0QvaoawEDoTRwzTXp4b4jpwiJDvR5KMnFnVodm3scufTlBOWRD6N1OBf9TZMhjlNsSfcO5V+7AF4+Vy+9g==}
     dependencies:
-      '@types/unist': 2.0.6
+      '@types/unist': 3.0.2
     dev: true
 
   /@types/hast@3.0.4:
     resolution: {integrity: sha512-WPs+bbQw5aCj+x6laNGWLH3wviHtoCv/P3+otBhbOhJgG8qtpdAMlTCxLtsTWA7LH1Oh/bFCHsBn0TPS5m30EQ==}
     dependencies:
-      '@types/unist': 2.0.6
+      '@types/unist': 3.0.2
     dev: true
 
   /@types/json-schema@7.0.11:
@@ -2455,7 +2455,7 @@ packages:
   /@types/mdast@3.0.10:
     resolution: {integrity: sha512-W864tg/Osz1+9f4lrGTZpCSO5/z4608eUp19tbozkq2HJK6i3z1kT0H9tlADXuYIb1YYOBByU4Jsqkk75q48qA==}
     dependencies:
-      '@types/unist': 2.0.6
+      '@types/unist': 3.0.2
     dev: true
 
   /@types/ms@0.7.31:
@@ -4824,10 +4824,10 @@ packages:
     resolution: {integrity: sha512-GaqWWShW4kv/G9IEucWScBx9G1/vsFZZJUO+tD26M8J8z3Kw5RDQjaoZe03YAClgeS/SWPOcb4nkFBTEi5DUEA==}
     dev: true
 
-  /mdsvex@0.10.6(svelte@3.55.1):
-    resolution: {integrity: sha512-aGRDY0r5jx9+OOgFdyB9Xm3EBr9OUmcrTDPWLB7a7g8VPRxzPy4MOBmcVYgz7ErhAJ7bZ/coUoj6aHio3x/2mA==}
+  /mdsvex@0.11.1(svelte@3.55.1):
+    resolution: {integrity: sha512-8g1WIKP8AD+KyW6EOSXkEUkxuKL3uX+Tqpv6MUyMFCXvDOb8FDuTFoaOSqi/1CKXVXTLdP/RZU2WS4W9pnuOmA==}
     peerDependencies:
-      svelte: 3.x
+      svelte: '>=3 <6'
     dependencies:
       '@types/unist': 2.0.6
       prism-svelte: 0.4.7
