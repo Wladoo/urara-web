@@ -15,8 +15,8 @@ devDependencies:
     specifier: ^1.1.7
     version: 1.1.7
   '@sveltejs/adapter-netlify':
-    specifier: ^2.0.5
-    version: 2.0.5(@sveltejs/kit@1.15.2)
+    specifier: ^2.0.8
+    version: 2.0.8(@sveltejs/kit@1.15.2)
   '@sveltejs/adapter-static':
     specifier: ^2.0.3
     version: 2.0.3(@sveltejs/kit@1.15.2)
@@ -2322,15 +2322,15 @@ packages:
       string.prototype.matchall: 4.0.8
     dev: true
 
-  /@sveltejs/adapter-netlify@2.0.5(@sveltejs/kit@1.15.2):
-    resolution: {integrity: sha512-i0qkxuH2/mLfk9T6uHAc/a3KU6mm9QhYdqqoIWWSAhst1lchLt9FzZfX9u6zzltOX+w+78/9E/+KPEwib7xenA==}
+  /@sveltejs/adapter-netlify@2.0.8(@sveltejs/kit@1.15.2):
+    resolution: {integrity: sha512-kfsoSsZth5CZHEIjr4TL4Cb6NmVul7/XNu5rJ04EbIOjYD1bnA4U7Sk1BmoRVyJae7UtUwG6Gkh01RFQSaIeNQ==}
     peerDependencies:
       '@sveltejs/kit': ^1.5.0
     dependencies:
       '@iarna/toml': 2.2.5
       '@sveltejs/kit': 1.15.2(svelte@3.55.1)(vite@4.5.3)
-      esbuild: 0.16.17
-      set-cookie-parser: 2.5.1
+      esbuild: 0.18.20
+      set-cookie-parser: 2.6.0
     dev: true
 
   /@sveltejs/adapter-static@2.0.3(@sveltejs/kit@1.15.2):
@@ -6110,6 +6110,10 @@ packages:
 
   /set-cookie-parser@2.5.1:
     resolution: {integrity: sha512-1jeBGaKNGdEq4FgIrORu/N570dwoPYio8lSoYLWmX7sQ//0JY08Xh9o5pBcgmHQ/MbsYp/aZnOe1s1lIsbLprQ==}
+    dev: true
+
+  /set-cookie-parser@2.6.0:
+    resolution: {integrity: sha512-RVnVQxTXuerk653XfuliOxBP81Sf0+qfQE73LIYKcyMYHG94AuH0kgrQpRDuTZnSmjpysHmzxJXKNfa6PjFhyQ==}
     dev: true
 
   /sharp@0.33.4:
